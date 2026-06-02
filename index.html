@@ -66,7 +66,8 @@
     <section id="competences">
         <h2 class="section-title">Les 6 Compétences du BUT</h2>
         <div class="grid-3-3">
-            <div class="card skill-card">
+            <!-- C1 avec IDs et Liens -->
+            <div id="c1" class="card skill-card">
                 <div class="skill-header">
                     <div class="icon-circle"><i class="fas fa-code"></i></div>
                     <span class="badge">C1</span>
@@ -74,11 +75,12 @@
                 <h3>Réaliser</h3>
                 <p>Développement d'applications complexes et responsives.</p>
                 <div class="skill-details">
-                    <hr><ul><li>SAE Méthode numérique : Jeu de logique en Python</li><li>Sokoban V2 : Modélisation et dév en C (POO)</li><li>Site vitrine web (HTML5/CSS)</li></ul>
+                    <hr><ul><li>SAE Méthode numérique : Jeu de logique en Python</li><li><a href="#projet-sokoban" class="proof-link">Sokoban V2 : Modélisation et dév en C (POO)</a></li><li><a href="#projet-japon" class="proof-link">Site vitrine web (HTML5/CSS)</a></li></ul>
                 </div>
                 <a class="details-link">Cliquer pour voir les détails</a>
             </div>
-            <div class="card skill-card">
+            <!-- C2 avec IDs et Liens -->
+            <div id="c2" class="card skill-card">
                 <div class="skill-header">
                     <div class="icon-circle"><i class="fas fa-microchip"></i></div>
                     <span class="badge">C2</span>
@@ -86,11 +88,12 @@
                 <h3>Optimiser</h3>
                 <p>Amélioration de l'efficacité logicielle et algorithmique.</p>
                 <div class="skill-details">
-                    <hr><ul><li>Sokoban V1 & V2 : Algorithmes de déplacement</li><li>Analyse de complexité des structures de données</li></ul>
+                    <hr><ul><li><a href="#projet-sokoban" class="proof-link">Sokoban V1 & V2 : Algorithmes de déplacement</a></li><li>Analyse de complexité des structures de données</li></ul>
                 </div>
                 <a class="details-link">Cliquer pour voir les détails</a>
             </div>
-            <div class="card skill-card">
+            <!-- C3 avec IDs et Liens -->
+            <div id="c3" class="card skill-card">
                 <div class="skill-header">
                     <div class="icon-circle"><i class="fas fa-network-wired"></i></div>
                     <span class="badge">C3</span>
@@ -98,11 +101,12 @@
                 <h3>Administrer</h3>
                 <p>Installation, configuration et gestion système/réseau.</p>
                 <div class="skill-details">
-                    <hr><ul><li>Virtualisation et conteneurisation avec Docker</li><li>Configuration d'environnements Linux / Debian</li></ul>
+                    <hr><ul><li><a href="#projet-docker" class="proof-link">Virtualisation et conteneurisation avec Docker</a></li><li>Configuration d'environnements Linux / Debian</li></ul>
                 </div>
                 <a class="details-link">Cliquer pour voir les détails</a>
             </div>
-            <div class="card skill-card">
+            <!-- C4 avec IDs et Liens -->
+            <div id="c4" class="card skill-card">
                 <div class="skill-header">
                     <div class="icon-circle"><i class="fas fa-database"></i></div>
                     <span class="badge">C4</span>
@@ -110,11 +114,12 @@
                 <h3>Gérer les données</h3>
                 <p>Conception, modélisation et gestion de bases de données.</p>
                 <div class="skill-details">
-                    <hr><ul><li>Modélisation relationnelle (UML)</li><li>Création et requêtage de bases de données SQL</li></ul>
+                    <hr><ul><li>Modélisation relationnelle (UML)</li><li><a href="#projet-sql" class="proof-link">Création et requêtage de bases de données SQL</a></li></ul>
                 </div>
                 <a class="details-link">Cliquer pour voir les détails</a>
             </div>
-            <div class="card skill-card">
+            <!-- C5 avec IDs et Liens -->
+            <div id="c5" class="card skill-card">
                 <div class="skill-header">
                     <div class="icon-circle"><i class="fas fa-tasks"></i></div>
                     <span class="badge">C5</span>
@@ -122,11 +127,12 @@
                 <h3>Conduire</h3>
                 <p>Gestion de projet informatique et suivi des livrables.</p>
                 <div class="skill-details">
-                    <hr><ul><li>Rédaction de cahiers des charges et spécifications</li><li>Suivi de projet avec outils de planification</li></ul>
+                    <hr><ul><li><a href="#projet-gestion" class="proof-link">Rédaction de cahiers des charges et spécifications</a></li><li>Suivi de projet avec outils de planification</li></ul>
                 </div>
                 <a class="details-link">Cliquer pour voir les détails</a>
             </div>
-            <div class="card skill-card">
+            <!-- C6 avec IDs et Liens -->
+            <div id="c6" class="card skill-card">
                 <div class="skill-header">
                     <div class="icon-circle"><i class="fas fa-users"></i></div>
                     <span class="badge">C6</span>
@@ -134,7 +140,7 @@
                 <h3>Collaborer</h3>
                 <p>Travail d'équipe, communication et versioning.</p>
                 <div class="skill-details">
-                    <hr><ul><li>Gestion du code avec Git et GitHub</li><li>Méthodes Agiles et organisation d'équipe</li></ul>
+                    <hr><ul><li>Gestion du code avec Git et GitHub</li><li><a href="#projet-gestion" class="proof-link">Méthodes Agiles et organisation d'équipe</a></li></ul>
                 </div>
                 <a class="details-link">Cliquer pour voir les détails</a>
             </div>
@@ -145,51 +151,56 @@
         <h2 class="section-title">Projets Marquants</h2>
         <div class="grid-projects">
             
-            <div class="card project-card glass">
+            <!-- Projet 1 -->
+            <div id="projet-japon" class="card project-card glass">
                 <h3>HTML & CSS - Voyage au Japon</h3>
                 <p>Création d'un site vitrine responsive et immersif dédié à la découverte du Japon.</p>
                 <div class="tags"><span>HTML</span><span>CSS</span><span>Design</span></div>
-                <div class="mobilise-container">Mobilise : <span class="badge-comp">C1</span> <span class="badge-comp">C2</span></div>
+                <div class="mobilise-container">Mobilise : <a href="#c1" class="badge-comp">C1</a> <a href="#c2" class="badge-comp">C2</a></div>
                 <div class="project-links">
                     <a href="https://github.com/nathanpht/HTML_CSS_Japon" target="_blank"><i class="fab fa-github"></i> Code source</a>
                 </div>
             </div>
 
-            <div class="card project-card glass">
+            <!-- Projet 2 -->
+            <div id="projet-sokoban" class="card project-card glass">
                 <h3>Sokoban - Version 2</h3>
                 <p>Développement du célèbre jeu de logique Sokoban en appliquant des concepts de programmation orientée objet en Java.</p>
                 <div class="tags"><span>Java</span><span>POO</span><span>Algorithmique</span></div>
-                <div class="mobilise-container">Mobilise : <span class="badge-comp">C1</span> <span class="badge-comp">C2</span></div>
+                <div class="mobilise-container">Mobilise : <a href="#c1" class="badge-comp">C1</a> <a href="#c2" class="badge-comp">C2</a></div>
                 <div class="project-links">
                     <a href="https://github.com/nathanpht/SokobanV2" target="_blank"><i class="fab fa-github"></i> Code source</a>
                 </div>
             </div>
 
-            <div class="card project-card glass">
+            <!-- Projet 3 -->
+            <div id="projet-sql" class="card project-card glass">
                 <h3>Gestion de Base de Données (SQL)</h3>
                 <p>Conception, modélisation relationnelle et requêtage complexe pour la gestion de données structurées.</p>
                 <div class="tags"><span>SQL</span><span>Modélisation</span><span>BDD</span></div>
-                <div class="mobilise-container">Mobilise : <span class="badge-comp">C4</span></div>
+                <div class="mobilise-container">Mobilise : <a href="#c4" class="badge-comp">C4</a></div>
                 <div class="project-links">
                     <a href="https://github.com/nathanpht/SQL_BDD" target="_blank"><i class="fab fa-github"></i> Code source</a>
                 </div>
             </div>
 
-            <div class="card project-card glass">
+            <!-- Projet 4 -->
+            <div id="projet-docker" class="card project-card glass">
                 <h3>Conteneurisation avec Docker</h3>
                 <p>Mise en place et administration d'infrastructures virtualisées et déploiement d'applications conteneurisées.</p>
                 <div class="tags"><span>Docker</span><span>DevOps</span><span>Linux</span></div>
-                <div class="mobilise-container">Mobilise : <span class="badge-comp">C3</span></div>
+                <div class="mobilise-container">Mobilise : <a href="#c3" class="badge-comp">C3</a></div>
                 <div class="project-links">
                     <a href="https://github.com/nathanpht/DockerContainer" target="_blank"><i class="fab fa-github"></i> Code source</a>
                 </div>
             </div>
 
-            <div class="card project-card glass">
+            <!-- Projet 5 -->
+            <div id="projet-gestion" class="card project-card glass">
                 <h3>Gestion de Projet Informatique</h3>
                 <p>Planification, rédaction de cahier des charges et suivi de livrables d'un projet d'application.</p>
                 <div class="tags"><span>Management</span><span>Agile</span><span>Planification</span></div>
-                <div class="mobilise-container">Mobilise : <span class="badge-comp">C5</span> <span class="badge-comp">C6</span></div>
+                <div class="mobilise-container">Mobilise : <a href="#c5" class="badge-comp">C5</a> <a href="#c6" class="badge-comp">C6</a></div>
                 <div class="project-links">
                     <a href="https://github.com/nathanpht/GESTIONPROJECT" target="_blank"><i class="fab fa-github"></i> Code source</a>
                 </div>
@@ -248,6 +259,21 @@
                 this.textContent = card.classList.contains('active') ? 'Fermer les détails' : 'Cliquer pour voir les détails';
             });
         });
+
+        // NOUVEAU : Ouvre automatiquement les volets de compétences lors d'un clic depuis un projet
+        function handleHashChange() {
+            const hash = window.location.hash;
+            if (hash.match(/^#c[1-6]$/)) {
+                const targetCard = document.querySelector(hash);
+                if (targetCard && !targetCard.classList.contains('active')) {
+                    targetCard.classList.add('active');
+                    const link = targetCard.querySelector('.details-link');
+                    if (link) link.textContent = 'Fermer les détails';
+                }
+            }
+        }
+        window.addEventListener('hashchange', handleHashChange);
+        window.addEventListener('load', handleHashChange);
 
         function ouvrirBoiteMail(event) {
             event.preventDefault();
